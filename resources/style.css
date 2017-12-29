@@ -1,0 +1,151 @@
+/* Universal Styles */
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1232px;
+  margin: 0 auto;
+  padding-top: 69px;
+}
+
+/* Header */
+
+header {
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: black;
+  height: 69px;
+  width: 100%;
+  top: 0;
+  border-bottom: 1px solid seashell;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+/* Logo */
+
+.logo img {
+  height: 50px;
+}
+
+/* Nav */
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+nav a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+/* Main Content */
+
+
+/* Mission */
+
+.hero-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  height: 700px;
+  background-image: url("../resources/images/img-mission-background.jpg");
+  padding-top: 69px;
+}
+
+#mission{
+  background-color: black;
+  width: 1200px;
+}
+
+/* Featured Tea */
+
+#featured-tea {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+#tea-collection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+/* Locations */
+
+#locations-container{
+  width: 1200px;
+  height: 500px;
+  background-image: url("../resources/images/img-locations-background.jpg");
+  background-position: 50% 25%;
+}
+
+.locations-container h2 {
+  margin-bottom: 15;
+  padding-bottom: 0;
+}
+
+.locations {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.locations div{
+  height: 250px;
+  width: 300px;
+  background-color: black;
+  margin: 15px 20px;
+  opacity: 1;
+}
+
+/* Contact */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 20px;
+}
+
+footer p {
+  text-align: left;
+  margin-left: 20px;
+}
